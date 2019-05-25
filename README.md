@@ -8,7 +8,7 @@ This is a hackathon project with simple equipment and shop system.
 	
 ## Technologies
 Project is created with:
-* time
+* time framework
 
 ## Details
 Whole program is divided into two classes:
