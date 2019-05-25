@@ -17,7 +17,7 @@ Whole program is divided into two classes:
 
 And two functions:
 - Buy
--Eat
+- Eat
 
 Ekwipunek class contains all details about items that the has in his backpack.
 Sklep class contains all items that are in the shop.
