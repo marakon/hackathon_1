@@ -14,7 +14,9 @@ Project is created with:
 Whole program is divided into two classes:
 - Ekwipunek 
 - Sklep
+
 And buy, eat functions.
+
 Ekwipunek class contains all details about items that the has in his backpack.
 Sklep class contains all items that are in the shop.
 
