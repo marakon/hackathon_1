@@ -14,6 +14,7 @@ Project is created with:
 Whole program is divided into two classes:
 - Ekwipunek 
 - Sklep
+
 And two functions:
 - Buy
 -Eat
