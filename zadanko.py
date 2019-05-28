@@ -26,11 +26,6 @@ class Ekwipunek:
     @property
     def hajs(self):
         return self._hajs
-
-    @hajs.setter
-    def hajs(self, hajs):
-        self._hajs = hajs
-
     
 class Sklep:
     def __init__(self):
@@ -54,6 +49,9 @@ def kupno(cena, rzecz, lista, hajsik, asortyment):
     print('Zostało Ci w sakiewce: {0}'.format(hajsik))
     print("Kupujesz {0} za {1}.".format(rzecz, cena))
     lista.append(rzecz)
+
+def eat(rzecz, lista):
+    lista.remove(rzecz)
 
 def main():
 #========================================================================================================#
@@ -134,11 +132,11 @@ def main():
             continue
         elif rzecz == 'batonik':
             print("Mmmm pyszny batonik!")
-            jedzenie.remove(rzecz)
+            eat(rzecz, jedzenie)
             break
         elif rzecz == 'jablko':
             print("Mmmmm zdrowe jablko!")
-            jedzenie.remove(rzecz)
+            eat(rzecz, jedzenie)
             break
     time.sleep(3)
     print("Twoja sakwa zawiera: ")
